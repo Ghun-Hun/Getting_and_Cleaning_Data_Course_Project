@@ -47,7 +47,7 @@ labels<-c("subject","activity",features_label_name)
 dataset<-cbind(subject,activity,x_extract)
 names(dataset)<-labels
 # write table for merge data set.
-write.table(dataset,"merge_data.txt",row.name=FALSE,sep=",",quote = FALSE)
+#write.table(dataset,"merge_data.txt",row.name=FALSE,sep=",",quote = FALSE)
 
 ##5.From the data set in step 4, creates a second, independent tidy data set with the average of each 
 ##variable for each activity and each subject.
